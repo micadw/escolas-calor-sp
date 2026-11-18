@@ -1,7 +1,7 @@
 {
   "title": "Calor nas escolas municipais de São Paulo: exposição térmica por satélite e priorização de climatização",
   "upload_type": "software",
-  "creators": [{"name": "Farina, Amilcar Ferraz"}],
+  "creators": [{"name": "Farina, Amilcar Ferraz", "orcid": "0009-0000-5263-4919", "affiliation": "Universidade de São Paulo (ESALQ)"}],
   "description": "Pipeline e resultados da atribuição de temperatura de superfície (Landsat 8/9, 2019–2025) a 3.772 escolas municipais de São Paulo, com índices de conforto térmico e priorização P1–P4. Projeto pessoal/acadêmico com dados abertos.",
   "license": "MIT",
   "keywords": ["sensoriamento remoto", "Landsat", "ilha de calor urbana", "conforto térmico", "escolas", "São Paulo"],

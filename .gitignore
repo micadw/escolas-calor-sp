@@ -1,0 +1,12 @@
+# dados brutos e intermediários ficam fora do git (versionar só metadados/fontes)
+data/raw/*
+data/interim/*
+!data/raw/FONTES.md
+*.tif
+*.gpkg
+*.shp
+*.zip
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env

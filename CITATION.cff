@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Se usar este material, cite-o assim."
+title: "Calor nas escolas municipais de São Paulo: exposição térmica por satélite e priorização de climatização"
+authors:
+  - family-names: Farina
+    given-names: Amilcar Ferraz
+version: "2.0"
+date-released: 2026-11-18
+license: MIT
+repository-code: "https://github.com/micadw/escolas-calor-sp"
+keywords:
+  - sensoriamento remoto
+  - Landsat
+  - ilha de calor urbana
+  - conforto térmico
+  - escolas
+  - São Paulo

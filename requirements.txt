@@ -1,0 +1,16 @@
+geopandas>=1.0
+rasterio>=1.3
+exactextract>=0.2
+rioxarray
+xarray
+numpy
+pandas
+scipy
+scikit-learn
+mapclassify
+pysal
+earthengine-api
+geemap
+metpy
+openpyxl
+matplotlib

@@ -6,7 +6,7 @@
 
 ![Ilha de calor de superfície e escolas por classe de calor](figures/mapa_temperatura_escolas.jpg)
 
-> Projeto pessoal e acadêmico, desenvolvido com dados abertos. Não representa posição oficial da Prefeitura de São Paulo nem de nenhum de seus órgãos.
+> Desenvolvido com dados abertos. Não representa posição oficial da Prefeitura de São Paulo nem de nenhum de seus órgãos.
 
 ## Resumo
 
@@ -96,4 +96,4 @@ Código sob [MIT](LICENSE). Dados derivados, figuras e textos sob [CC BY 4.0](LI
 
 ## English summary
 
-**Heat exposure in São Paulo's municipal schools.** Land surface temperature from Landsat 8/9 (2019–2025) was attributed to 3,772 municipal pre-schools and primary schools with fractional-pixel zonal statistics (100 m buffers), combined with hourly INMET weather data, heat indices during school hours, enrolment, pupils' age and surrounding vegetation. Output: five heat classes and a P1–P4 priority ranking per school stage for air conditioning, cool roofs and tree planting. Personal/academic project using open data only.
+**Heat exposure in São Paulo's municipal schools.** Land surface temperature from Landsat 8/9 (2019–2025) was attributed to 3,772 municipal pre-schools and primary schools with fractional-pixel zonal statistics (100 m buffers), combined with hourly INMET weather data, heat indices during school hours, enrolment, pupils' age and surrounding vegetation. Output: five heat classes and a P1–P4 priority ranking per school stage for air conditioning, cool roofs and tree planting. Built with open data only; does not represent an official position of the City of São Paulo.

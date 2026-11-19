@@ -65,6 +65,7 @@ Os notebooks rodam no Google Colab e baixam os dados das fontes oficiais.
 
 ## Dados
 
+- **Base por escola para planilha:** [`outputs/escolas_calor_sp_v2.xlsx`](outputs/escolas_calor_sp_v2.xlsx) (Excel, com leia-me, resumos por DRE e dicionário) e [`outputs/escolas_calor_sp_v2.csv`](outputs/escolas_calor_sp_v2.csv) (separador `;`, decimal `,`).
 - **Resultados por escola:** [`outputs/escolas_temperatura.csv`](outputs/escolas_temperatura.csv) (classe de calor, ilha de calor, temperatura p90, horas com sensação ≥ 32 °C, vegetação, prioridade).
 - **Pacote completo** (planilhas, compostos Landsat em GeoTIFF, séries por escola): Zenodo — DOI a incluir.
 - **Fontes:** [Dados Abertos PMSP / SME](https://dados.prefeitura.sp.gov.br), [USGS Landsat Collection 2](https://www.usgs.gov/landsat-missions/landsat-collection-2) via [Planetary Computer](https://planetarycomputer.microsoft.com), [INMET](https://portal.inmet.gov.br/dadoshistoricos).

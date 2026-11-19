@@ -8,7 +8,7 @@
 
 ## Resumo
 
-Medi o calor no entorno de cada escola municipal com imagens de satélite (Landsat 8/9) e dados de estações meteorológicas (INMET). Calculo temperaturas de superfície, ilha de calor, sensação térmica e horas de desconforto no horário de aula. Depois cruzo com a idade dos alunos, as matrículas, o período integral e a vegetação do entorno. O resultado é uma classificação das escolas em cinco classes de calor e quatro níveis de prioridade (P1–P4) por etapa de ensino.
+O projeto mede o calor no entorno de cada escola municipal com imagens de satélite (Landsat 8/9) e dados de estações meteorológicas (INMET). São calculadas temperaturas de superfície, ilha de calor, sensação térmica e horas de desconforto no horário de aula, cruzadas com a idade dos alunos, as matrículas, o período integral e a vegetação do entorno. O resultado é uma classificação das escolas em cinco classes de calor e quatro níveis de prioridade (P1–P4) por etapa de ensino.
 
 **Palavras-chave:** sensoriamento remoto · Landsat · ilha de calor urbana · temperatura de superfície (LST) · conforto térmico · análise espacial · priorização · políticas públicas · educação · Python
 

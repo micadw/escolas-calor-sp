@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 130
+extend-include = ["*.ipynb"]
+
+[tool.ruff.lint]
+# erros reais (sintaxe, nomes indefinidos, imports) + bugs comuns; estilo de linhas longas fica livre
+select = ["E9", "F", "B"]
+ignore = ["B905"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

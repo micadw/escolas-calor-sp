@@ -1,5 +1,7 @@
 # Calor nas escolas municipais de São Paulo
 
+[![Testes](https://github.com/micadw/escolas-calor-sp/actions/workflows/testes.yml/badge.svg)](https://github.com/micadw/escolas-calor-sp/actions/workflows/testes.yml)
+
 **Exposição térmica de 3.772 escolas da rede municipal (Educação Infantil e Ensino Fundamental, direta e conveniada) a partir de imagens de satélite, com proposta de priorização para climatização, telhados frios e arborização.**
 
 ![Ilha de calor de superfície e escolas por classe de calor](figures/mapa_temperatura_escolas.jpg)
@@ -62,6 +64,16 @@ Os notebooks rodam no Google Colab e baixam os dados das fontes oficiais.
 ├── src/           # funções e scripts
 └── requirements.txt
 ```
+
+## Qualidade e testes
+
+A cada envio, o GitHub roda automaticamente (`.github/workflows/testes.yml`):
+
+- **linter** (`ruff`) em scripts e notebooks — sintaxe, nomes indefinidos, imports sem uso;
+- **testes das fórmulas** (`tests/test_indices.py`) — Heat Index contra a tabela da NOAA, índice de Thom, graus-hora, normalização;
+- **testes de integridade da base** (`tests/test_dados.py`) — 3.772 escolas com código único, sem vazios nas colunas-chave, coordenadas dentro do município, faixas físicas plausíveis, classe de calor coerente com a ilha de calor, P1–P4 em cada etapa, as duas bases publicadas idênticas entre si e os números deste README iguais aos da base.
+
+Para rodar localmente: `pip install pandas numpy pytest ruff && ruff check . && pytest`.
 
 ## Dados
 

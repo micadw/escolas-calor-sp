@@ -1,0 +1,16 @@
+# Roda a cada push e pull request: linter (ruff) + testes de fórmulas e de integridade da base.
+name: Testes
+on: [push, pull_request]
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pandas numpy pytest ruff
+      - name: Linter
+        run: ruff check src tests notebooks
+      - name: Testes
+        run: pytest -v

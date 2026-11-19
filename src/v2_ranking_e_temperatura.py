@@ -1,6 +1,14 @@
 # v2 — correções do ranking + produto só de temperatura
 # Roda no Colab com %run -i (usa ROOT, RAW, INT, PRO, OUT, CRS já definidos)
 import glob, numpy as np, pandas as pd, geopandas as gpd, mapclassify, rasterio
+import os
+import pathlib
+
+# Pastas do projeto: usa as do Colab (%run -i) se já existirem; senão, a raiz do repositório ou ESCOLAS_ROOT.
+if "ROOT" not in globals():
+    ROOT = os.environ.get("ESCOLAS_ROOT", str(pathlib.Path(__file__).resolve().parents[1]))
+RAW, INT, PRO, OUT = [f"{ROOT}/{p}" for p in ["data/raw", "data/interim", "data/processed", "outputs"]]
+CRS = globals().get("CRS", "EPSG:31983")
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap, BoundaryNorm
 from openpyxl import Workbook

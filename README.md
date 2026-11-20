@@ -1,6 +1,7 @@
 # Calor nas escolas municipais de São Paulo
 
 [![Testes](https://github.com/micadw/escolas-calor-sp/actions/workflows/testes.yml/badge.svg)](https://github.com/micadw/escolas-calor-sp/actions/workflows/testes.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24401164.svg)](https://doi.org/10.5281/zenodo.24401164)
 
 **Exposição térmica de 3.772 escolas da rede municipal (Educação Infantil e Ensino Fundamental, direta e conveniada) a partir de imagens de satélite, com proposta de priorização para climatização, telhados frios e arborização.**
 
@@ -79,7 +80,7 @@ Para rodar localmente: `pip install pandas numpy pytest ruff && ruff check . && 
 
 - **Base por escola para planilha:** [`outputs/escolas_calor_sp_v2.xlsx`](outputs/escolas_calor_sp_v2.xlsx) (Excel, com leia-me, resumos por DRE e dicionário) e [`outputs/escolas_calor_sp_v2.csv`](outputs/escolas_calor_sp_v2.csv) (separador `;`, decimal `,`).
 - **Resultados por escola:** [`outputs/escolas_temperatura.csv`](outputs/escolas_temperatura.csv) (classe de calor, ilha de calor, temperatura p90, horas com sensação ≥ 32 °C, vegetação, prioridade).
-- **Pacote completo** (planilhas, compostos Landsat em GeoTIFF, séries por escola): Zenodo — DOI a incluir.
+- **Versão arquivada (v2.0.0):** código e planilhas no Zenodo, DOI [10.5281/zenodo.24401164](https://doi.org/10.5281/zenodo.24401164) (aponta sempre para a versão mais recente; a v2.0.0 é [10.5281/zenodo.24401165](https://doi.org/10.5281/zenodo.24401165)). Os compostos Landsat em GeoTIFF não entram no pacote por tamanho; podem ser refeitos pelos notebooks.
 - **Fontes:** [Dados Abertos PMSP / SME](https://dados.prefeitura.sp.gov.br), [USGS Landsat Collection 2](https://www.usgs.gov/landsat-missions/landsat-collection-2) via [Planetary Computer](https://planetarycomputer.microsoft.com), [INMET](https://portal.inmet.gov.br/dadoshistoricos).
 
 ## Limitações

@@ -5,8 +5,9 @@ authors:
   - family-names: Farina
     given-names: Amilcar Ferraz
     orcid: "https://orcid.org/0009-0000-5263-4919"
-version: "2.0"
-date-released: 2026-11-18
+version: "2.0.0"
+date-released: 2026-11-20
+doi: 10.5281/zenodo.24401164
 license: MIT
 repository-code: "https://github.com/micadw/escolas-calor-sp"
 keywords:
